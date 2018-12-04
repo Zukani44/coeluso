@@ -94,3 +94,52 @@ header {
     }
 
 }
+
+.first-section {
+    margin-top: 25vh;
+
+    .container-fluid {
+        background-image: url("pictures/first-section-background.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        div {
+            -webkit-box-shadow: 1px 0px 77px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 0px 77px 0px rgba(0,0,0,0.75);
+            box-shadow: 1px 0px 77px 0px rgba(0,0,0,0.75);
+        }
+
+        .left, .right {
+            height: 580px;
+        }
+
+        .middle {
+            margin: 0 100px;
+        }
+    }
+}
+
+.second-section {
+    margin-top: 22vh;
+    
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+
+        .row {
+            margin-right: 0;
+            .left {
+                height: 600px;
+                position: relative;
+    
+                img {
+                    position: absolute;
+                    top: 0;
+                    right: 100px;
+                }
+            }
+        }
+        
+    }
+    
+}

@@ -61,4 +61,34 @@ header .little-header {
     header .little-header button:hover {
       transform: scale(0.95); }
 
+.first-section {
+  margin-top: 25vh; }
+  .first-section .container-fluid {
+    background-image: url("pictures/first-section-background.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+    .first-section .container-fluid div {
+      -webkit-box-shadow: 1px 0px 77px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 0px 77px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 1px 0px 77px 0px rgba(0, 0, 0, 0.75); }
+    .first-section .container-fluid .left, .first-section .container-fluid .right {
+      height: 580px; }
+    .first-section .container-fluid .middle {
+      margin: 0 100px; }
+
+.second-section {
+  margin-top: 22vh; }
+  .second-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0; }
+    .second-section .container-fluid .row {
+      margin-right: 0; }
+      .second-section .container-fluid .row .left {
+        height: 600px;
+        position: relative; }
+        .second-section .container-fluid .row .left img {
+          position: absolute;
+          top: 0;
+          right: 100px; }
+
 /*# sourceMappingURL=style.css.map */
