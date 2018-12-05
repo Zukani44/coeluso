@@ -1,8 +1,30 @@
 /* Utilities */
 
 body {
+    color: #fff;
     background-color: #0a2345;
     font-family: 'Montserrat', sans-serif;
+}
+
+$dark-blue: #2a5da3;
+$light-blue: #2e66b2;
+$border-blue: #153a6d;
+
+button {
+    margin-top: 5vh;
+    //width: 191px;
+    //height: 50px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid $border-blue;
+    border-radius: 35px;;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    &:hover {
+        transform: scale(0.95);
+    }
 }
 
 button:hover {
@@ -15,9 +37,14 @@ button:focus {
     outline: none;
 }
 
-$dark-blue: #2a5da3;
-$light-blue: #2e66b2;
-$border-blue: #153a6d;
+h2 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    color: $dark-blue;
+    span {
+        color: #fff;
+    }
+}
 
 /* styles */
 
@@ -59,36 +86,10 @@ header {
         margin-top: 15vh;
         text-align: center;
 
-        h1 {
-            font-size: 42px;
-            letter-spacing: 1px;
-            color: $dark-blue;
-        }
-
-        span {
-            color: #fff;
-        }
-
         p {
             font-size: 18px;
             margin: 35px;
             color: $light-blue;
-        }
-
-        button {
-            margin-top: 5vh;
-            padding: 20px 33px;
-            font-size: 14px;
-            letter-spacing: 0px;
-            color: #fff;
-            background-color: transparent;
-            border: 2px solid $border-blue;
-            border-radius: 35px;;
-            font-weight: bold;
-            transition: .3s ease-in-out;
-            &:hover {
-                transform: scale(0.95);
-            }
         }
 
     }
@@ -109,10 +110,6 @@ header {
             box-shadow: 1px 0px 77px 0px rgba(0,0,0,0.75);
         }
 
-        .left, .right {
-            height: 580px;
-        }
-
         .middle {
             margin: 0 100px;
         }
@@ -128,6 +125,7 @@ header {
 
         .row {
             margin-right: 0;
+
             .left {
                 height: 600px;
                 position: relative;
@@ -135,8 +133,23 @@ header {
                 img {
                     position: absolute;
                     top: 0;
-                    right: 100px;
+                    right: 85px;
                 }
+            }
+
+            .right {
+                
+                h2 {
+                    margin: 100px 0 20px 0;
+                }
+
+                p {
+                    width: 80%;
+                    font-size: 14px;
+                    line-height: 36px;
+                    color: #66778e;
+                }
+                
             }
         }
         
