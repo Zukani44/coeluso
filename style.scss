@@ -117,7 +117,7 @@ header {
 }
 
 .second-section {
-    margin-top: 22vh;
+    margin: 22vh auto 10vh auto;
     
     .container-fluid {
         padding-left: 0;
@@ -155,4 +155,150 @@ header {
         
     }
     
+}
+
+.third-section {
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 15vh;
+    }
+
+    img {
+        margin-bottom: 18px;
+        margin-right: 14px;
+    }
+
+    h3 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #63738b;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+    
+    .small {
+        padding-top: 4px;
+    }
+
+}
+
+.fourth-section {
+
+    .col-md-6 {
+        margin-top: 10vh;
+
+        overflow: hidden;
+
+        img {
+            margin-bottom: 5vh;
+        }
+    
+        h2 {
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 5vh;
+        }
+    
+        p {
+            font-size: 15px;
+            color: #63738b;
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+    }
+
+    .left {
+        padding-top: 20vh;
+        padding-left: 9vw;
+    }
+
+    
+}
+
+.fifth-section {
+    .container-fluid {
+        height: 65vh;
+        background-image: url("pictures/fifth-section-hands.png"); 
+        background-repeat: no-repeat;
+        background-position: right;
+        position: relative;
+        &:before {
+            content: "";
+            background-color: #0a2345;
+            width: 100%;
+            height: 100%;
+            opacity: .8;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .row {
+            .col-md-6 {
+                margin-top: 14vh;
+                p {
+                    text-align: center;
+                    line-height: 1.9;
+                    font-size: 20px;
+                    color: #63738b;
+                    
+                }
+            }
+
+            .carousel {
+                position: relative;
+                margin: 0 auto;
+                margin-top: 5vh;
+
+                .carousel-indicators {
+                    bottom: -10vh;
+                    margin-right: auto;
+                    margin-left: auto;
+
+                    li {
+                        width: 14px;
+                        height: 14px;
+                        margin: 8px;
+                        background-color: transparent;
+                        border: 1px solid #335a95;
+                        border-radius: 50%;
+                    }
+                }
+
+                .carousel-inner {
+                    width: 450px;
+                    
+                    .carousel-item {
+                        background-color: transparent !important;
+                        .row {
+                            margin: 0;
+                            .col-md-3 {
+                                padding-right: 0;
+                            img {
+                                border-radius: 50%;
+                            }
+                        }
+                            p {
+                                font-size: 14px;
+                                color: #66778e;
+                                margin-bottom: 0;
+                                span {
+                                    color: #335a95;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+            .active {
+                background-color: #335a95 !important;
+            }
+        }
+    }
 }
