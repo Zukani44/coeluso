@@ -67,7 +67,7 @@ p {
     color: #63738b;
     font-weight: 300;
     line-height: 2.3;
-    text-align: justify;
+    text-align: -webkit-auto;
 }
 
 /* styles */
@@ -128,20 +128,21 @@ header {
         background-image: linear-gradient(#0a2345, #07172d, #051020);
         .row {
             .first {
-                margin: 10vh auto 5vh auto;  
+                margin: 10vh auto;  
             }
             .col-md-9 {
-                margin: 0vh auto 20vh auto;
+                margin: 0vh auto 15vh auto;
                 .row {
-                    .left {
-                        padding-right: 2vw;
-                    }
-                    .right {
-                        padding-left: 2vw;
-                    }
-                    .col-md-6 {
-                        margin-top: 5vh;
-                        text-align: center;
+                    .col-md-12 {
+                        margin-bottom: 8vh;
+                        img {
+                            border-radius: 50%;
+                            
+                        }
+                        span {
+                            font-size: 22px;
+                            color: #fff;
+                        }
                     }
                 }
             }
@@ -176,16 +177,17 @@ header {
                 margin: 5vh auto 10vh auto;
                 .row {
                     .col-md-12 {
-                        margin-bottom: 3vh;
+                        margin-bottom: 7vh;
+                        h2 {
+                            text-align: center;
+                        }
                     }
-                    .fab {
-                        font-size: 1.7rem;
-                        margin-right: 2vw;
-                        color: #2e4b72;
-                        transition: .3s ease-in-out;
-                        &:hover {
-                            cursor: pointer;
-                            transform: scale(0.9);
+                    .col-md-4 {
+                        padding-right: 25px;
+                        padding-left: 25px;
+                        margin-bottom: 7vh;
+                        p {
+                            text-align: justify;
                         }
                     }
                 }

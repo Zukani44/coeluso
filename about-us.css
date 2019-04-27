@@ -48,7 +48,7 @@ p {
   color: #63738b;
   font-weight: 300;
   line-height: 2.3;
-  text-align: justify; }
+  text-align: -webkit-auto; }
 
 /* styles */
 header .header-row {
@@ -85,16 +85,16 @@ header .little-header {
 .first-section .container-fluid {
   background-image: linear-gradient(#0a2345, #07172d, #051020); }
   .first-section .container-fluid .row .first {
-    margin: 10vh auto 5vh auto; }
+    margin: 10vh auto; }
   .first-section .container-fluid .row .col-md-9 {
-    margin: 0vh auto 20vh auto; }
-    .first-section .container-fluid .row .col-md-9 .row .left {
-      padding-right: 2vw; }
-    .first-section .container-fluid .row .col-md-9 .row .right {
-      padding-left: 2vw; }
-    .first-section .container-fluid .row .col-md-9 .row .col-md-6 {
-      margin-top: 5vh;
-      text-align: center; }
+    margin: 0vh auto 15vh auto; }
+    .first-section .container-fluid .row .col-md-9 .row .col-md-12 {
+      margin-bottom: 8vh; }
+      .first-section .container-fluid .row .col-md-9 .row .col-md-12 img {
+        border-radius: 50%; }
+      .first-section .container-fluid .row .col-md-9 .row .col-md-12 span {
+        font-size: 22px;
+        color: #fff; }
 
 .second-section {
   background-color: #051020; }
@@ -110,15 +110,15 @@ header .little-header {
   .third-section .container-fluid .row .col-md-9 {
     margin: 5vh auto 10vh auto; }
     .third-section .container-fluid .row .col-md-9 .row .col-md-12 {
-      margin-bottom: 3vh; }
-    .third-section .container-fluid .row .col-md-9 .row .fab {
-      font-size: 1.7rem;
-      margin-right: 2vw;
-      color: #2e4b72;
-      transition: .3s ease-in-out; }
-      .third-section .container-fluid .row .col-md-9 .row .fab:hover {
-        cursor: pointer;
-        transform: scale(0.9); }
+      margin-bottom: 7vh; }
+      .third-section .container-fluid .row .col-md-9 .row .col-md-12 h2 {
+        text-align: center; }
+    .third-section .container-fluid .row .col-md-9 .row .col-md-4 {
+      padding-right: 25px;
+      padding-left: 25px;
+      margin-bottom: 7vh; }
+      .third-section .container-fluid .row .col-md-9 .row .col-md-4 p {
+        text-align: justify; }
 
 footer {
   background-image: linear-gradient(#03070d, #020102); }
@@ -136,4 +136,4 @@ footer {
       footer .container .row .col-md-4 p {
         text-align: right; }
 
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=about-us.css.map */
