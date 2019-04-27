@@ -200,9 +200,24 @@ header .little-header {
     .sixth-section .container-fluid .row .first {
       margin-top: 18vh;
       margin-bottom: 8vh; }
-    .sixth-section .container-fluid .row .gunwo {
+    .sixth-section .container-fluid .row .sixth-section-button {
       margin-top: 10vh;
-      margin-left: 1vw;
       margin-bottom: 10vh; }
+
+footer {
+  background-image: linear-gradient(#03070d, #020102); }
+  footer .container {
+    border-top: 1px solid #0c1525; }
+    footer .container .row .col-md-4 {
+      padding: 0;
+      margin-top: 5vh;
+      margin-bottom: 7vh; }
+      footer .container .row .col-md-4 a, footer .container .row .col-md-4 p {
+        font-weight: bold;
+        font-size: 15px;
+        color: #14396a;
+        margin-right: 10px; }
+      footer .container .row .col-md-4 p {
+        text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
