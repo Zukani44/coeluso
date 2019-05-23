@@ -165,3 +165,17 @@ footer {
         }
     }
 }
+
+/* RWD */
+
+@media only screen and (max-width: 576px) {
+    footer {
+        text-align: center;
+        p {
+            text-align: center !important;
+        }
+        .ml-auto {
+            margin-top: 0vh !important;
+        }
+    }
+}

@@ -118,4 +118,13 @@ footer {
       footer .container .row .col-md-4 p {
         text-align: right; }
 
+/* RWD */
+@media only screen and (max-width: 576px) {
+  footer {
+    text-align: center; }
+    footer p {
+      text-align: center !important; }
+    footer .ml-auto {
+      margin-top: 0vh !important; } }
+
 /*# sourceMappingURL=utilities.css.map */

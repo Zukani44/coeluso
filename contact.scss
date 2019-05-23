@@ -80,3 +80,59 @@ p {
         }
     }
 }
+
+/* RWD */
+
+@media only screen and (max-width: 576px) {
+    .first-section {
+        .container-fluid{
+            .row {
+                .first {
+                    margin: 10vh auto 0vh auto;
+                }
+                .col-md-9 {
+                    margin: 0vh auto 10vh auto;
+                    .row {
+                        .col-md-6 {
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            width: 90%;
+                            margin: 5vh auto 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .container-fluid {
+            .row {
+                .col-md-12 {
+                    margin-bottom: 10vh;
+                }
+            }
+        } 
+    }  
+
+    .third-section {
+        .container-fluid {
+            .row {
+                .col-md-9 {
+                    .row {
+                        .col-md-12 {
+                            width: 90%;
+                            margin: 0 auto 3vh auto;
+                            h2 {
+                                text-align: center;
+                            }
+                        }
+                    }
+                } 
+            }
+        } 
+    } 
+}
+
+
+

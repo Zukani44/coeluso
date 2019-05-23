@@ -81,3 +81,50 @@ p {
         }
     }
 }
+
+/* RWD */
+
+@media only screen and (max-width: 576px) {
+    .first-section {
+        .col-md-9 {
+            margin: 0vh auto 8vh auto !important;
+        }
+
+        .col-md-2 {
+            margin-bottom: 5vh;
+        }
+    
+        .col-md-10 {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    .second-section {
+        .col-md-12 {
+            margin-bottom: 12vh !important;
+        }
+    }
+
+    .third-section {
+        .container-fluid {
+            .row {
+                .col-md-9 {
+                    margin: 5vh auto 5vh auto;
+                    .row {
+                        .col-md-12 {
+                            margin: 0 auto 5vh auto;
+                            width: 90%;
+                        }
+                        .col-md-4 {
+                            width: 90%;
+                            margin: 0 auto 4vh auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
