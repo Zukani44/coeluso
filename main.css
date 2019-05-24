@@ -10,7 +10,7 @@
       -moz-box-shadow: 1px 0px 77px 0px rgba(0, 0, 0, 0.75);
       box-shadow: 1px 0px 77px 0px rgba(0, 0, 0, 0.75); }
     .first-section .container-fluid .middle {
-      margin: 0 100px; }
+      margin: 0px 8vw; }
 
 .second-section {
   margin: 22vh auto 10vh auto; }
@@ -182,5 +182,40 @@
     margin-bottom: 6vh !important; }
   .sixth-section img {
     width: 100%; } }
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .first-section img {
+    width: 100%; }
+
+  .second-section .left {
+    min-height: 120vh !important;
+    padding-right: 0; }
+    .second-section .left img {
+      width: 100%; }
+  .second-section .right {
+    text-align: center;
+    padding-right: 0; }
+    .second-section .right p {
+      width: 100% !important;
+      padding: 25px !important; }
+
+  .third-section {
+    text-align: center; }
+    .third-section .middle {
+      width: 100%;
+      height: 100%;
+      margin-right: 0;
+      padding-bottom: 44px; }
+
+  .fourth-section {
+    text-align: center; }
+    .fourth-section .left {
+      padding-top: 0;
+      padding-left: 15px; }
+    .fourth-section .right img {
+      position: relative;
+      left: -200px; }
+
+  .sixth-section img {
+    width: 95%; } }
 
 /*# sourceMappingURL=main.css.map */

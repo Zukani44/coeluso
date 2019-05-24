@@ -69,6 +69,7 @@ header {
 
         .logo {
             width: 140px;
+            margin: 3vh 0 3vh 0;
         }
 
         .open{
@@ -169,6 +170,26 @@ footer {
 /* RWD */
 
 @media only screen and (max-width: 576px) {
+    footer {
+        text-align: center;
+        p {
+            text-align: center !important;
+        }
+        .ml-auto {
+            margin-top: 0vh !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .overlay-content {
+        padding-top: 0 !important;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
     footer {
         text-align: center;
         p {

@@ -45,7 +45,7 @@ p {
         text-align: justify; }
 
 /* RWD */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .first-section .col-md-9 {
     margin: 0vh auto 8vh auto !important; }
   .first-section .col-md-2 {
@@ -65,5 +65,8 @@ p {
     .third-section .container-fluid .row .col-md-9 .row .col-md-4 {
       width: 90%;
       margin: 0 auto 4vh auto; } }
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .first-section .container-fluid .row .first {
+    margin: 20vh auto 10vh auto; } }
 
 /*# sourceMappingURL=about-us.css.map */

@@ -45,7 +45,7 @@ p {
         transform: scale(0.9); }
 
 /* RWD */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .first-section .container-fluid .row .first {
     margin: 10vh auto 0vh auto; }
   .first-section .container-fluid .row .col-md-9 {
@@ -64,5 +64,8 @@ p {
     margin: 0 auto 3vh auto; }
     .third-section .container-fluid .row .col-md-9 .row .col-md-12 h2 {
       text-align: center; } }
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .first-section .container-fluid .row .first {
+    margin: 20vh auto 0vh auto; } }
 
 /*# sourceMappingURL=contact.css.map */
